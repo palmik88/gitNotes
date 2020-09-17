@@ -25,8 +25,10 @@ nano .gitignor - создать файл, в котором бдует прописано то, что будет игнориров
 git clone https://github.com/palmik88/gitNotes.git - скопировать из репозитория
 
 
-Если git remote -v ничего не выдаёт, то:
-git remote add origin https://github.com/palmik88/gitNotes.git
+git remote -v: показывает ссылку на репозиторий.
+Если ничего не выдаёт, то:
+git remote add origin https://github.com/palmik88/gitNotes.git -добавляем ссылку
+git remote set-url origin git@github.com:palmik88/gitNotes.git - меняет ссылку
 
 
 Запушить на гит: -f - запушить принудительно
