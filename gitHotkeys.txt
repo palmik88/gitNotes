@@ -33,3 +33,13 @@ git remote set-url origin git@github.com:palmik88/gitNotes.git - меняет ссылку
 
 Запушить на гит: -f - запушить принудительно
 git push -f https://github.com/palmik88/gitNotes.git master
+
+
+Branch:
+
+git branch - посмотреть ветки
+git branch test_test - создать ветку test_test
+git checkout test_test - перейти на ветку test_test
+git branch -d test_test - удалить ветку test_test
+git checkout -b test_test - создать ветку test_test и сразу перейти на неё
+
