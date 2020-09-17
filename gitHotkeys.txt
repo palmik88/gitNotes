@@ -21,3 +21,13 @@ nano .gitignor - создать файл, в котором бдует прописано то, что будет игнориров
 Пример: *.log - все файлы , заканчивающиеся на .log
 	logs/ - будет игнорироваться директория
 	file.txt - будет игнорироваться конкретный файл
+
+git clone https://github.com/palmik88/gitNotes.git - скопировать из репозитория
+
+
+Если git remote -v ничего не выдаёт, то:
+git remote add origin https://github.com/palmik88/gitNotes.git
+
+
+Запушить на гит: -f - запушить принудительно
+git push -f https://github.com/palmik88/gitNotes.git master
