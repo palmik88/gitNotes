@@ -41,5 +41,8 @@ git branch - посмотреть ветки
 git branch test_test - создать ветку test_test
 git checkout test_test - перейти на ветку test_test
 git branch -d test_test - удалить ветку test_test
+git branch -D test_test - удалить ветку test_test принудительно
 git checkout -b test_test - создать ветку test_test и сразу перейти на неё
+
+git branch test_test - находясь в master соединить ветки master и test_test
 
